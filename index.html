@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enigma do Amor</title>
+  <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+
+  <!-- Tela Inicial -->
+  <div class="container" id="startScreen">
+    <h1>Enigma do Amor 💖</h1>
+    <button id="fleeButton">Clique em mim para continuar</button>
+  </div>
+
+  <!-- Tela da Senha -->
+  <div class="container hidden" id="passwordScreen">
+    <h2>Quase lá… 😏</h2>
+    <input type="password" id="passwordInput" placeholder="Digite a senha">
+    <p class="hint">
+      A senha é uma palavra que só nós sabemos e falamos por código algumas vezes 💌
+    </p>
+    <button id="confirmPassword">Confirmar</button>
+  </div>
+
+  <!-- Tela Final -->
+  <div class="container hidden" id="finalScreen">
+    <h2>Surpresaaa! Eu te amo e só estamos no começo da nossa história ❤️</h2>
+    <div class="photo-box">
+      <!-- Substitua o src pela foto de vocês -->
+      <img src="./assets/img/eu-e-ela.jpeg" alt="Foto do casal">
+    </div>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
