@@ -15,7 +15,7 @@ button.addEventListener("click", () => {
 
  if (clickCount < 6) {
 
-    alert("Ops, não vai ser tão fácil assim! Tente clicar de novo.");
+    alert("Ops, não vai ser tão fácil assim! Tenta clicar de novo.");
 
     const x = Math.random() * (window.innerWidth - button.offsetWidth);
     const y = Math.random() * (window.innerHeight - button.offsetHeight);
@@ -30,13 +30,14 @@ button.addEventListener("click", () => {
 });
 
 // Defina a senha aqui 👇
-const correctPassword = "jubileu";
+const correctPassword = "23/12/2020";
 
 confirmPassword.addEventListener("click", () => {
   if (passwordInput.value === correctPassword) {
     passwordScreen.classList.add("hidden");
     finalScreen.classList.remove("hidden");
   } else {
-    alert("Hmm… tenta de novo, vai uma dica extra >> Eu falo essa palavra/Nome pra me referir ao meu amiguinho 😅❤️");
+    alert("Hmm… tenta de novo, vai uma dica extra >> É uma data especial 😅❤️");
   }
+
 });
